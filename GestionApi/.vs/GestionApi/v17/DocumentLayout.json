@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapi\\gestionapi\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|solutionrelative:gestionapi\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapi\\gestionapi\\models\\addcursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|solutionrelative:gestionapi\\models\\addcursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddCursoDto.cs",
-              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Models\\AddCursoDto.cs",
-              "RelativeDocumentMoniker": "GestionApi\\Models\\AddCursoDto.cs",
-              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Models\\AddCursoDto.cs",
-              "RelativeToolTip": "GestionApi\\Models\\AddCursoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:56:17.562Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,9 +24,9 @@
               "RelativeDocumentMoniker": "GestionApi\\Controllers\\CursosController.cs",
               "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Controllers\\CursosController.cs",
               "RelativeToolTip": "GestionApi\\Controllers\\CursosController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwC4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:40:42.796Z",
+              "WhenOpened": "2026-03-31T17:41:08.099Z",
               "EditorCaption": ""
             }
           ]

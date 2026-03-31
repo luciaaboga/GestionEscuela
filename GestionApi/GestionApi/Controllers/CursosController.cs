@@ -1,7 +1,6 @@
-﻿using GestionApi.Data;
-using GestionApi.Models;
-using GestionApi.Models.Entities;
-using Microsoft.AspNetCore.Http;
+﻿using GestionApi.Models;
+using GestionApi.Models.Dtos;
+using GestionApi.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GestionApi.Controllers
@@ -10,51 +9,38 @@ namespace GestionApi.Controllers
     [ApiController]
     public class CursosController : ControllerBase
     {
-        private readonly ApplicationDbContext dbContext;
-         public CursosController(ApplicationDbContext dbContext)
+        private readonly ICursosService _cursosService;
+
+        public CursosController(ICursosService cursosService)
         {
-            this.dbContext = dbContext;
+            _cursosService = cursosService;
         }
 
         [HttpGet]
-
-        public IActionResult GetAllCursos()
+        public async Task<IActionResult> GetAllCursos()
         {
-            var allCursos = dbContext.Cursos.ToList();
-            return Ok(allCursos);
+            var cursos = await _cursosService.GetAllCursosAsync();
+            return Ok(cursos);
         }
-        
+
         [HttpPost]
-        public IActionResult AddCurso(AddCursoDto addCursoDto)
+        public async Task<IActionResult> AddCurso(AddCursoDto addCursoDto)
         {
-            var cursoEntity = new Curso()
-            {
-                Anio = addCursoDto.Anio,
-                Division = addCursoDto.Division,
-                Especialidad = addCursoDto.Especialidad
-            };
-
-            dbContext.Cursos.Add(cursoEntity);
-            dbContext.SaveChanges();
-
-            return Ok(cursoEntity);
+            var nuevoCurso = await _cursosService.AddCursoAsync(addCursoDto);
+            return CreatedAtAction(nameof(GetAllCursos), new { id = nuevoCurso.Id }, nuevoCurso);
         }
 
-        [HttpDelete]
-        [Route("{id:guid}")]
-        public IActionResult DeleteCurso(Guid id)
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> DeleteCurso(Guid id)
         {
-            var curso = dbContext.Cursos.Find(id);
+            var result = await _cursosService.DeleteCursoAsync(id);
 
-            if (curso == null)
+            if (!result)
             {
                 return NotFound();
             }
 
-            dbContext.Cursos.Remove(curso);
-            dbContext.SaveChanges();
-
-            return Ok();
+            return NoContent(); 
         }
     }
 }
