@@ -1,5 +1,74 @@
 [
   {
+    "ContainingType": "GestionApi.Controllers.AlumnosController",
+    "Method": "DeleteAlumno",
+    "RelativePath": "api/Alumnos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionApi.Controllers.AlumnosController",
+    "Method": "GetAlumnoById",
+    "RelativePath": "api/Alumnos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionApi.Controllers.AlumnosController",
+    "Method": "GetAlumnosByCurso",
+    "RelativePath": "api/Alumnos/curso/{cursoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionApi.Controllers.AlumnosController",
+    "Method": "AddAlumnoToCurso",
+    "RelativePath": "api/Alumnos/curso/{cursoId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "addAlumnoDto",
+        "Type": "GestionApi.Models.Dtos.AddAlumnoToCursoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GestionApi.Controllers.CursosController",
     "Method": "GetAllCursos",
     "RelativePath": "api/Cursos",
@@ -19,7 +88,7 @@
     "Parameters": [
       {
         "Name": "addCursoDto",
-        "Type": "GestionApi.Models.AddCursoDto",
+        "Type": "GestionApi.Models.Dtos.AddCursoDto",
         "IsRequired": true
       }
     ],

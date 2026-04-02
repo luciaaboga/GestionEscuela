@@ -22,8 +22,8 @@ namespace GestionConsole
             {
                 ConsoleHelper.WriteTitle("SISTEMA DE GESTIÓN");
                 Console.WriteLine("1. Gestión de Cursos");
-                Console.WriteLine("2. Gestión de Alumnos (Próximamente)");
-                Console.WriteLine("3. Gestión de Asistencias (Próximamente)");
+                Console.WriteLine("2. Gestión de Alumnos");
+                Console.WriteLine("3. Gestión de Asistencias");
                 Console.WriteLine("4. Salir");
                 Console.WriteLine();
 
@@ -36,8 +36,8 @@ namespace GestionConsole
                         await cursoMenu.ShowAsync();
                         break;
                     case 2:
-                        ConsoleHelper.WriteInfo("Módulo de Alumnos en desarrollo...");
-                        ConsoleHelper.PressAnyKey();
+                        var alumnoMenu = new AlumnoMenu(client);
+                        await alumnoMenu.ShowAsync();
                         break;
                     case 3:
                         ConsoleHelper.WriteInfo("Módulo de Asistencias en desarrollo...");

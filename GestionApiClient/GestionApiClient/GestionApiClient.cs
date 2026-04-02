@@ -25,6 +25,7 @@ namespace GestionApiClient
             };
         }
 
+        // ============ MÉTODOS PARA CURSOS ============
         public async Task<List<CursoDto>> GetAllCursosAsync()
         {
             var response = await _httpClient.GetAsync("/api/cursos");
@@ -89,6 +90,61 @@ namespace GestionApiClient
                 _httpClient?.Dispose();
             }
             _disposed = true;
+        }
+
+        // ============ MÉTODOS PARA ALUMNOS ============
+
+        public async Task<List<AlumnoDto>> GetAlumnosByCursoIdAsync(Guid cursoId)
+        {
+            var response = await _httpClient.GetAsync($"/api/alumnos/curso/{cursoId}");
+
+            await HandleErrorResponse(response);
+
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<AlumnoDto>>(json, _jsonOptions)
+                   ?? new List<AlumnoDto>();
+        }
+
+        public async Task<AlumnoDto> AddAlumnoToCursoAsync(Guid cursoId, AddAlumnoToCursoDto alumno)
+        {
+            var json = JsonSerializer.Serialize(alumno, _jsonOptions);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PostAsync($"/api/alumnos/curso/{cursoId}", content);
+
+            await HandleErrorResponse(response);
+
+            var responseJson = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<AlumnoDto>(responseJson, _jsonOptions)
+                   ?? throw new ApiException("Error al deserializar respuesta", 500);
+        }
+
+        public async Task<bool> DeleteAlumnoAsync(Guid id)
+        {
+            var response = await _httpClient.DeleteAsync($"/api/alumnos/{id}");
+
+            if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+            {
+                return false;
+            }
+
+            await HandleErrorResponse(response);
+
+            return response.IsSuccessStatusCode;
+        }
+        public async Task<AlumnoDto?> GetAlumnoByIdAsync(Guid id)
+        {
+            var response = await _httpClient.GetAsync($"/api/alumnos/{id}");
+
+            if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+            {
+                return null;
+            }
+
+            await HandleErrorResponse(response);
+
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<AlumnoDto>(json, _jsonOptions);
         }
     }
 }

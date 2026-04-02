@@ -138,3 +138,9 @@ C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApi\GestionApi\o
 C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApi\GestionApi\obj\Debug\net8.0\GestionApi.pdb
 C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApi\GestionApi\obj\Debug\net8.0\GestionApi.genruntimeconfig.cache
 C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApi\GestionApi\obj\Debug\net8.0\ref\GestionApi.dll
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApi\GestionApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApi\GestionApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApi\GestionApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApi\GestionApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApi\GestionApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApi\GestionApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

@@ -11,5 +11,21 @@ namespace GestionApi.Data
         }
 
         public DbSet<Curso> Cursos { get; set; }
+        public DbSet<Alumno> Alumnos { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Alumno>()
+                .HasOne(a => a.Curso)
+                .WithMany()
+                .HasForeignKey(a => a.CursoId)
+                .OnDelete(DeleteBehavior.Restrict); 
+
+            modelBuilder.Entity<Alumno>()
+                .HasIndex(a => a.Email)
+                .IsUnique();
+        }
     }
 }

@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{60DD953C-3937-4A35-BA15-6B3B4467E26E}|GestionConsole\\GestionConsole.csproj|solutionrelative:gestionconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{60DD953C-3937-4A35-BA15-6B3B4467E26E}|GestionConsole\\GestionConsole.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionconsole\\gestionconsole\\menus\\alumnomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DD953C-3937-4A35-BA15-6B3B4467E26E}|GestionConsole\\GestionConsole.csproj|solutionrelative:gestionconsole\\menus\\alumnomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60DD953C-3937-4A35-BA15-6B3B4467E26E}|GestionConsole\\GestionConsole.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionconsole\\gestionconsole\\gestionconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{60DD953C-3937-4A35-BA15-6B3B4467E26E}|GestionConsole\\GestionConsole.csproj|solutionrelative:gestionconsole\\gestionconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlumnoMenu.cs",
+              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionConsole\\GestionConsole\\Menus\\AlumnoMenu.cs",
+              "RelativeDocumentMoniker": "GestionConsole\\Menus\\AlumnoMenu.cs",
+              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionConsole\\GestionConsole\\Menus\\AlumnoMenu.cs",
+              "RelativeToolTip": "GestionConsole\\Menus\\AlumnoMenu.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAAALQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T17:37:11.546Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +53,14 @@
               "RelativeDocumentMoniker": "GestionConsole\\Program.cs",
               "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionConsole\\GestionConsole\\Program.cs",
               "RelativeToolTip": "GestionConsole\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T16:43:22.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CursoMenu.cs",
               "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionConsole\\GestionConsole\\Menus\\CursoMenu.cs",
               "RelativeDocumentMoniker": "GestionConsole\\Menus\\CursoMenu.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "GestionConsole\\Menus\\CursoMenu.cs",
               "ViewState": "AgIAAKkAAAAAAAAAAAAAAHkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T18:38:00.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T18:38:00.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ConsoleHelper.cs",
               "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionConsole\\GestionConsole\\Helpers\\ConsoleHelper.cs",
               "RelativeDocumentMoniker": "GestionConsole\\Helpers\\ConsoleHelper.cs",
@@ -64,12 +80,11 @@
               "RelativeToolTip": "GestionConsole\\Helpers\\ConsoleHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T18:37:13.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T18:37:13.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GestionConsole.csproj",
               "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionConsole\\GestionConsole\\GestionConsole.csproj",
               "RelativeDocumentMoniker": "GestionConsole\\GestionConsole.csproj",
@@ -77,8 +92,7 @@
               "RelativeToolTip": "GestionConsole\\GestionConsole.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-31T18:36:52.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T18:36:52.689Z"
             }
           ]
         }

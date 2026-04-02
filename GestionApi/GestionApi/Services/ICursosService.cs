@@ -1,5 +1,4 @@
-﻿using GestionApi.Models;
-using GestionApi.Models.Dtos;
+﻿using GestionApi.Models.Dtos;
 
 namespace GestionApi.Services
 {

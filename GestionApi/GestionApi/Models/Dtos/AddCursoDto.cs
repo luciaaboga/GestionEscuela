@@ -1,4 +1,4 @@
-﻿namespace GestionApi.Models
+﻿namespace GestionApi.Models.Dtos
 {
     public class AddCursoDto
     {

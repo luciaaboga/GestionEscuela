@@ -1,5 +1,4 @@
 ﻿using GestionApi.Data;
-using GestionApi.Models;
 using GestionApi.Models.Dtos;
 using GestionApi.Models.Entities;
 using Microsoft.EntityFrameworkCore;
