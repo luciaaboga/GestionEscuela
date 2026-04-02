@@ -1,0 +1,94 @@
+﻿using System.Text;
+using System.Text.Json;
+using GestionApiClient.Exceptions;
+using GestionApiClient.Models.Dtos;
+
+namespace GestionApiClient
+{
+    public class GestionApiClient : IDisposable
+    {
+        private readonly HttpClient _httpClient;
+        private readonly JsonSerializerOptions _jsonOptions;
+        private bool _disposed;
+
+        public GestionApiClient(string baseUrl)
+        {
+            _httpClient = new HttpClient
+            {
+                BaseAddress = new Uri(baseUrl)
+            };
+
+            _jsonOptions = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+            };
+        }
+
+        public async Task<List<CursoDto>> GetAllCursosAsync()
+        {
+            var response = await _httpClient.GetAsync("/api/cursos");
+
+            await HandleErrorResponse(response);
+
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<CursoDto>>(json, _jsonOptions)
+                   ?? new List<CursoDto>();
+        }
+
+        public async Task<CursoDto> CreateCursoAsync(AddCursoDto curso)
+        {
+            var json = JsonSerializer.Serialize(curso, _jsonOptions);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PostAsync("/api/cursos", content);
+
+            await HandleErrorResponse(response);
+
+            var responseJson = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<CursoDto>(responseJson, _jsonOptions)
+                   ?? throw new ApiException("Error al deserializar respuesta", 500);
+        }
+        public async Task<bool> DeleteCursoAsync(Guid id)
+        {
+            var response = await _httpClient.DeleteAsync($"/api/cursos/{id}");
+
+            if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+            {
+                return false;
+            }
+
+            await HandleErrorResponse(response);
+
+            return response.IsSuccessStatusCode;
+        }
+
+        private async Task HandleErrorResponse(HttpResponseMessage response)
+        {
+            if (response.IsSuccessStatusCode)
+                return;
+
+            var statusCode = (int)response.StatusCode;
+            var responseBody = await response.Content.ReadAsStringAsync();
+
+            throw new ApiException(
+                $"Error en la API: {response.ReasonPhrase}",
+                statusCode,
+                responseBody);
+        }
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed && disposing)
+            {
+                _httpClient?.Dispose();
+            }
+            _disposed = true;
+        }
+    }
+}

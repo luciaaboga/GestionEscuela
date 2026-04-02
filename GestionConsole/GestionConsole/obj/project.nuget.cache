@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Qnw4LACjgp4=",
+  "dgSpecHash": "70nloNKGSq8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bogad\\source\\repos\\GestionConsole\\GestionConsole\\GestionConsole.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionConsole\\GestionConsole\\GestionConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bogad\\.nuget\\packages\\system.io.pipelines\\10.0.5\\system.io.pipelines.10.0.5.nupkg.sha512",
+    "C:\\Users\\bogad\\.nuget\\packages\\system.text.encodings.web\\10.0.5\\system.text.encodings.web.10.0.5.nupkg.sha512",
+    "C:\\Users\\bogad\\.nuget\\packages\\system.text.json\\10.0.5\\system.text.json.10.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

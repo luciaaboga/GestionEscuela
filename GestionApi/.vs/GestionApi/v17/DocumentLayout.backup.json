@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapi\\gestionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|solutionrelative:gestionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapi\\gestionapi\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|solutionrelative:gestionapi\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapi\\gestionapi\\services\\cursosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|solutionrelative:gestionapi\\services\\cursosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Program.cs",
-              "RelativeDocumentMoniker": "GestionApi\\Program.cs",
-              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Program.cs",
-              "RelativeToolTip": "GestionApi\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T17:41:48.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CursosController.cs",
               "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Controllers\\CursosController.cs",
               "RelativeDocumentMoniker": "GestionApi\\Controllers\\CursosController.cs",
               "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Controllers\\CursosController.cs",
               "RelativeToolTip": "GestionApi\\Controllers\\CursosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T17:41:08.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CursosService.cs",
-              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Services\\CursosService.cs",
-              "RelativeDocumentMoniker": "GestionApi\\Services\\CursosService.cs",
-              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Services\\CursosService.cs",
-              "RelativeToolTip": "GestionApi\\Services\\CursosService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T17:39:37.654Z",
               "EditorCaption": ""
             }
           ]

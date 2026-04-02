@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ELi4BsJO8cs=",
+  "dgSpecHash": "pZHRie6kYOE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bogad\\source\\repos\\GestionApiClient\\GestionApiClient\\GestionApiClient.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\GestionApiClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bogad\\.nuget\\packages\\system.io.pipelines\\10.0.5\\system.io.pipelines.10.0.5.nupkg.sha512",
+    "C:\\Users\\bogad\\.nuget\\packages\\system.text.encodings.web\\10.0.5\\system.text.encodings.web.10.0.5.nupkg.sha512",
+    "C:\\Users\\bogad\\.nuget\\packages\\system.text.json\\10.0.5\\system.text.json.10.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

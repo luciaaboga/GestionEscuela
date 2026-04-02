@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bogad\\source\\repos\\GestionApiClient\\",
+  "WorkspaceRootPath": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|c:\\users\\bogad\\source\\repos\\gestionapiclient\\gestionapiclient\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|solutionrelative:gestionapiclient\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapiclient\\gestionapiclient\\gestionapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|solutionrelative:gestionapiclient\\gestionapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapiclient\\gestionapiclient\\models\\dtos\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|solutionrelative:gestionapiclient\\models\\dtos\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\bogad\\source\\repos\\GestionApiClient\\GestionApiClient\\Class1.cs",
-              "RelativeDocumentMoniker": "GestionApiClient\\Class1.cs",
-              "ToolTip": "C:\\Users\\bogad\\source\\repos\\GestionApiClient\\GestionApiClient\\Class1.cs",
-              "RelativeToolTip": "GestionApiClient\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CursoDto.cs",
+              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\CursoDto.cs",
+              "RelativeDocumentMoniker": "GestionApiClient\\Models\\Dtos\\CursoDto.cs",
+              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\CursoDto.cs",
+              "RelativeToolTip": "GestionApiClient\\Models\\Dtos\\CursoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T03:20:02.22Z",
+              "WhenOpened": "2026-03-31T18:46:41.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestionApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\GestionApiClient.cs",
+              "RelativeDocumentMoniker": "GestionApiClient\\GestionApiClient.cs",
+              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\GestionApiClient.cs",
+              "RelativeToolTip": "GestionApiClient\\GestionApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T18:41:35.1Z",
               "EditorCaption": ""
             }
           ]

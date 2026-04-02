@@ -1,0 +1,13 @@
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\bin\Debug\net8.0\GestionApiClient.deps.json
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\bin\Debug\net8.0\GestionApiClient.dll
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\bin\Debug\net8.0\GestionApiClient.pdb
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\obj\Debug\net8.0\GestionApiClient.csproj.AssemblyReference.cache
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\obj\Debug\net8.0\GestionApiClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\obj\Debug\net8.0\GestionApiClient.AssemblyInfoInputs.cache
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\obj\Debug\net8.0\GestionApiClient.AssemblyInfo.cs
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\obj\Debug\net8.0\GestionApiClient.csproj.CoreCompileInputs.cache
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\obj\Debug\net8.0\GestionApiClient.sourcelink.json
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\obj\Debug\net8.0\GestionApiClient.dll
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\obj\Debug\net8.0\refint\GestionApiClient.dll
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\obj\Debug\net8.0\GestionApiClient.pdb
+C:\Users\bogad\OneDrive\Documentos\GitHub\GestionEscuela\GestionApiClient\GestionApiClient\obj\Debug\net8.0\ref\GestionApiClient.dll
