@@ -40,8 +40,8 @@ namespace GestionConsole
                         await alumnoMenu.ShowAsync();
                         break;
                     case 3:
-                        ConsoleHelper.WriteInfo("Módulo de Asistencias en desarrollo...");
-                        ConsoleHelper.PressAnyKey();
+                        var asistenciaMenu = new AsistenciaMenu(client);
+                        await asistenciaMenu.ShowAsync();
                         break;
                     case 4:
                         exit = true;

@@ -12,6 +12,7 @@ namespace GestionApi.Data
 
         public DbSet<Curso> Cursos { get; set; }
         public DbSet<Alumno> Alumnos { get; set; }
+        public DbSet<Asistencia> Asistencias { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -21,7 +22,24 @@ namespace GestionApi.Data
                 .HasOne(a => a.Curso)
                 .WithMany()
                 .HasForeignKey(a => a.CursoId)
-                .OnDelete(DeleteBehavior.Restrict); 
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Asistencia>()
+                .HasOne(a => a.Alumno)
+                .WithMany()
+                .HasForeignKey(a => a.AlumnoId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Asistencia>()
+                .HasOne(a => a.Curso)
+                .WithMany()
+                .HasForeignKey(a => a.CursoId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Asistencia>()
+                .HasIndex(a => new { a.AlumnoId, a.CursoId, a.Fecha })
+                .IsUnique()
+                .HasDatabaseName("IX_Asistencia_UnicaPorDia");
 
             modelBuilder.Entity<Alumno>()
                 .HasIndex(a => a.Email)

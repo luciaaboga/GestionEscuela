@@ -16,6 +16,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 
 builder.Services.AddScoped<ICursosService, CursosService>();
 builder.Services.AddScoped<IAlumnoService, AlumnoService>();
+builder.Services.AddScoped<IAsistenciaService, AsistenciaService>();
 
 var app = builder.Build();
 

@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|solutionrelative:gestionapiclient\\gestionapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapiclient\\gestionapiclient\\models\\dtos\\alumnodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|solutionrelative:gestionapiclient\\models\\dtos\\alumnodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapiclient\\gestionapiclient\\models\\dtos\\resumenasistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|solutionrelative:gestionapiclient\\models\\dtos\\resumenasistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapiclient\\gestionapiclient\\models\\dtos\\addalumnotocursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|solutionrelative:gestionapiclient\\models\\dtos\\addalumnotocursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapiclient\\gestionapiclient\\models\\dtos\\asistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|solutionrelative:gestionapiclient\\models\\dtos\\asistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapiclient\\gestionapiclient\\models\\dtos\\registrarasistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02F21F7C-FB9B-4A53-A6A7-F6E27F7BDF7C}|GestionApiClient\\GestionApiClient.csproj|solutionrelative:gestionapiclient\\models\\dtos\\registrarasistenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,35 +36,48 @@
               "RelativeDocumentMoniker": "GestionApiClient\\GestionApiClient.cs",
               "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\GestionApiClient.cs",
               "RelativeToolTip": "GestionApiClient\\GestionApiClient.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAAABsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T17:31:01.548Z",
+              "WhenOpened": "2026-04-03T16:50:52.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AlumnoDto.cs",
-              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\AlumnoDto.cs",
-              "RelativeDocumentMoniker": "GestionApiClient\\Models\\Dtos\\AlumnoDto.cs",
-              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\AlumnoDto.cs",
-              "RelativeToolTip": "GestionApiClient\\Models\\Dtos\\AlumnoDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "ResumenAsistenciaDto.cs",
+              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\ResumenAsistenciaDto.cs",
+              "RelativeDocumentMoniker": "GestionApiClient\\Models\\Dtos\\ResumenAsistenciaDto.cs",
+              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\ResumenAsistenciaDto.cs",
+              "RelativeToolTip": "GestionApiClient\\Models\\Dtos\\ResumenAsistenciaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T17:30:05.385Z",
+              "WhenOpened": "2026-04-03T16:50:27.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddAlumnoToCursoDto.cs",
-              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\AddAlumnoToCursoDto.cs",
-              "RelativeDocumentMoniker": "GestionApiClient\\Models\\Dtos\\AddAlumnoToCursoDto.cs",
-              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\AddAlumnoToCursoDto.cs",
-              "RelativeToolTip": "GestionApiClient\\Models\\Dtos\\AddAlumnoToCursoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "AsistenciaDto.cs",
+              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\AsistenciaDto.cs",
+              "RelativeDocumentMoniker": "GestionApiClient\\Models\\Dtos\\AsistenciaDto.cs",
+              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\AsistenciaDto.cs",
+              "RelativeToolTip": "GestionApiClient\\Models\\Dtos\\AsistenciaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T17:29:42.956Z",
+              "WhenOpened": "2026-04-03T16:50:05.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrarAsistenciaDto.cs",
+              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\RegistrarAsistenciaDto.cs",
+              "RelativeDocumentMoniker": "GestionApiClient\\Models\\Dtos\\RegistrarAsistenciaDto.cs",
+              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApiClient\\GestionApiClient\\Models\\Dtos\\RegistrarAsistenciaDto.cs",
+              "RelativeToolTip": "GestionApiClient\\Models\\Dtos\\RegistrarAsistenciaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T16:49:43.808Z",
               "EditorCaption": ""
             }
           ]

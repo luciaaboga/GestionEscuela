@@ -69,6 +69,101 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "GestionApi.Controllers.AsistenciasController",
+    "Method": "GetAsistenciasByFecha",
+    "RelativePath": "api/Asistencias/curso/{cursoId}/fecha/{fecha}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionApi.Controllers.AsistenciasController",
+    "Method": "GetAsistenciasHoy",
+    "RelativePath": "api/Asistencias/curso/{cursoId}/hoy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionApi.Controllers.AsistenciasController",
+    "Method": "RegistrarAsistencia",
+    "RelativePath": "api/Asistencias/curso/{cursoId}/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "asistenciaDto",
+        "Type": "GestionApi.Models.Dtos.RegistrarAsistenciaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionApi.Controllers.AsistenciasController",
+    "Method": "GetResumenAsistencia",
+    "RelativePath": "api/Asistencias/curso/{cursoId}/resumen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "fecha",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionApi.Controllers.AsistenciasController",
+    "Method": "GetResumenHoy",
+    "RelativePath": "api/Asistencias/curso/{cursoId}/resumen-hoy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GestionApi.Controllers.CursosController",
     "Method": "GetAllCursos",
     "RelativePath": "api/Cursos",

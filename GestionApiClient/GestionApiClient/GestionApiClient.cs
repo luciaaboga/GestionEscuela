@@ -146,5 +146,65 @@ namespace GestionApiClient
             var json = await response.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<AlumnoDto>(json, _jsonOptions);
         }
+
+        // ============ MÉTODOS PARA ASISTENCIAS ============
+
+        public async Task<AsistenciaDto> RegistrarAsistenciaAsync(Guid cursoId, RegistrarAsistenciaDto asistencia)
+        {
+            var json = JsonSerializer.Serialize(asistencia, _jsonOptions);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PostAsync($"/api/asistencias/curso/{cursoId}/registrar", content);
+
+            await HandleErrorResponse(response);
+
+            var responseJson = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<AsistenciaDto>(responseJson, _jsonOptions)
+                   ?? throw new ApiException("Error al deserializar respuesta", 500);
+        }
+
+        public async Task<List<AsistenciaDto>> GetAsistenciasByCursoYFechaAsync(Guid cursoId, DateOnly fecha)
+        {
+            var response = await _httpClient.GetAsync($"/api/asistencias/curso/{cursoId}/fecha/{fecha:yyyy-MM-dd}");
+
+            await HandleErrorResponse(response);
+
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<AsistenciaDto>>(json, _jsonOptions)
+                   ?? new List<AsistenciaDto>();
+        }
+
+        public async Task<ResumenAsistenciaDto> GetResumenAsistenciaAsync(Guid cursoId, DateOnly fecha)
+        {
+            var response = await _httpClient.GetAsync($"/api/asistencias/curso/{cursoId}/resumen?fecha={fecha:yyyy-MM-dd}");
+
+            await HandleErrorResponse(response);
+
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<ResumenAsistenciaDto>(json, _jsonOptions)
+                   ?? throw new ApiException("Error al deserializar respuesta", 500);
+        }
+
+        public async Task<List<AsistenciaDto>> GetAsistenciasHoyAsync(Guid cursoId)
+        {
+            var response = await _httpClient.GetAsync($"/api/asistencias/curso/{cursoId}/hoy");
+
+            await HandleErrorResponse(response);
+
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<AsistenciaDto>>(json, _jsonOptions)
+                   ?? new List<AsistenciaDto>();
+        }
+
+        public async Task<ResumenAsistenciaDto> GetResumenHoyAsync(Guid cursoId)
+        {
+            var response = await _httpClient.GetAsync($"/api/asistencias/curso/{cursoId}/resumen-hoy");
+
+            await HandleErrorResponse(response);
+
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<ResumenAsistenciaDto>(json, _jsonOptions)
+                   ?? throw new ApiException("Error al deserializar respuesta", 500);
+        }
     }
 }

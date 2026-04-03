@@ -56,6 +56,38 @@ namespace GestionApi.Migrations
                     b.ToTable("Alumnos");
                 });
 
+            modelBuilder.Entity("GestionApi.Models.Entities.Asistencia", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("AlumnoId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CursoId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateOnly>("Fecha")
+                        .HasColumnType("date");
+
+                    b.Property<bool>("Presente")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("RegistradoEn")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CursoId");
+
+                    b.HasIndex("AlumnoId", "CursoId", "Fecha")
+                        .IsUnique()
+                        .HasDatabaseName("IX_Asistencia_UnicaPorDia");
+
+                    b.ToTable("Asistencias");
+                });
+
             modelBuilder.Entity("GestionApi.Models.Entities.Curso", b =>
                 {
                     b.Property<Guid>("Id")
@@ -86,6 +118,25 @@ namespace GestionApi.Migrations
                         .HasForeignKey("CursoId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.Navigation("Curso");
+                });
+
+            modelBuilder.Entity("GestionApi.Models.Entities.Asistencia", b =>
+                {
+                    b.HasOne("GestionApi.Models.Entities.Alumno", "Alumno")
+                        .WithMany()
+                        .HasForeignKey("AlumnoId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("GestionApi.Models.Entities.Curso", "Curso")
+                        .WithMany()
+                        .HasForeignKey("CursoId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Alumno");
 
                     b.Navigation("Curso");
                 });
