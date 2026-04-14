@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Migrations\\20260403164433_AddAsistenciasTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GestionApi\\Migrations\\20260403164433_AddAsistenciasTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapi\\gestionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|solutionrelative:gestionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|c:\\users\\bogad\\onedrive\\documentos\\github\\gestionescuela\\gestionapi\\gestionapi\\services\\alumnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FB690C-84E1-4D0A-A701-C41F5EE62644}|GestionApi\\GestionApi.csproj|solutionrelative:gestionapi\\services\\alumnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260403164433_AddAsistenciasTable.cs",
-              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Migrations\\20260403164433_AddAsistenciasTable.cs",
-              "RelativeDocumentMoniker": "GestionApi\\Migrations\\20260403164433_AddAsistenciasTable.cs",
-              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Migrations\\20260403164433_AddAsistenciasTable.cs",
-              "RelativeToolTip": "GestionApi\\Migrations\\20260403164433_AddAsistenciasTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AlumnoService.cs",
+              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Services\\AlumnoService.cs",
+              "RelativeDocumentMoniker": "GestionApi\\Services\\AlumnoService.cs",
+              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Services\\AlumnoService.cs",
+              "RelativeToolTip": "GestionApi\\Services\\AlumnoService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAEEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T16:44:33.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Program.cs",
-              "RelativeDocumentMoniker": "GestionApi\\Program.cs",
-              "ToolTip": "C:\\Users\\bogad\\OneDrive\\Documentos\\GitHub\\GestionEscuela\\GestionApi\\GestionApi\\Program.cs",
-              "RelativeToolTip": "GestionApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBIAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T16:37:35.758Z",
+              "WhenOpened": "2026-04-14T17:31:48.7Z",
               "EditorCaption": ""
             }
           ]

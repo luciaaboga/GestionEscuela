@@ -81,6 +81,12 @@ namespace GestionApi.Services
                 return false;
             }
 
+            var asistencias = await _dbContext.Asistencias.Where(a => a.AlumnoId == id).ToListAsync();
+            if (asistencias.Any())
+            {
+                _dbContext.Asistencias.RemoveRange(asistencias);
+            }
+
             _dbContext.Alumnos.Remove(alumno);
             await _dbContext.SaveChangesAsync();
 
